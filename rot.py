@@ -1,0 +1,5 @@
+j=open('c.txt','r').readlines()
+o=open('a.txt','r').readlines()
+j.close()
+o.close()
+print(j,o)
